@@ -1,0 +1,7 @@
+#
+# Author: Peterson Yuhala
+#
+
+Import('*')
+SimObject('PimPE.py',sim_objects=['PimPE'])
+Source('pim_pe.cc')
