@@ -5,3 +5,6 @@
 Import('*')
 SimObject('PimPE.py',sim_objects=['PimPE'])
 Source('pim_pe.cc')
+
+# Enabling debug messages for this class
+DebugFlag('PimPE')
